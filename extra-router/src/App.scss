@@ -1,0 +1,220 @@
+.Home-block-inner {
+    img {
+        width: 1260px;
+        height: 100vh;
+    }
+}
+
+.Home-block-inner-abs {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    margin: 0 auto;
+
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        color: white;
+    }
+
+    p {
+        color: white;
+        font-family: 'Arial', sans-serif;
+        margin: 10px 0;
+        line-height: 20px;
+        text-align: center;
+    }
+
+}
+
+
+.MainPage-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.MainPage-header {
+    h1 {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+}
+
+.MainPage-block-inner {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: rgb(58, 58, 58);
+    height: 100vh;
+    flex-basis: 17%;
+    padding: 50px 0 0 20px;
+
+    a {
+        color: white;
+        list-style: circle;
+        text-decoration: none;
+        line-height: 30px;
+        font-family: 'Roboto', sans-serif;
+        transition: 0.3s all linear;
+
+        &:hover {
+            padding-left: 7px;
+        }
+    }
+
+    .links {
+        height: 190px;
+        transition: 0.3s all linear;
+        overflow: hidden;
+
+        li {
+            margin-left: 10px;
+            color: white;
+        }
+    }
+
+    .hidden-links {
+        height: 0;
+        transition: 0.3s all linear;
+        overflow: hidden;
+
+        li {
+            margin-left: 10px;
+            color: white;
+        }
+    }
+}
+
+.MainPage-block-content {
+    flex-basis: 83%;
+}
+
+
+.Hotels-header {
+    h3 {
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        margin: 10px 0 0 0;
+        font-size: 25px;
+    }
+}
+
+.Hotels-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hotels-block-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.Hotels-block-inner-item {
+    box-shadow: 0px 10px 21px 14px rgba(0, 0, 0, 0.1);
+    flex-basis: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+
+    img {
+        border-radius: 5px;
+        width: 100%;
+        height: 200px;
+    }
+
+    .Hotels-item-info {
+        position: relative;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+
+        h4 {
+            font-size: 18px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+        }
+
+        p {
+            text-align: end;
+            font-family: 'Roboto', sans-serif;
+
+            span {
+                color: red;
+            }
+        }
+
+        #green {
+            color: rgb(18, 195, 18);
+            font-size: 15px;
+        }
+
+    }
+
+    #btn {
+        top: -10px;
+        left: 80%;
+    }
+}
+
+
+.Hotel-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hotel-block-inner-item {
+    box-shadow: 0px 10px 21px 14px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    gap: 30px;
+    width: 800px;
+    align-items: start;
+    justify-content: center;
+    margin-top: 30px;
+
+    img {
+        width: 500px;
+        height: auto;
+    }
+
+    p:nth-child(1) {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .green {
+        font-family: 'Roboto', sans-serif;
+        color: rgb(3, 209, 3);
+        margin: 10px 0;
+    }
+
+
+    .price {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        margin: 10px 0;
+        span {
+            color: rgb(235, 12, 12);
+            font-weight: 500;
+
+        }
+    }
+
+    p:nth-child(4) {
+        font-family: 'Roboto', sans-serif;
+        line-height: 25px;
+    }
+}
